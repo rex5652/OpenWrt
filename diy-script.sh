@@ -38,9 +38,10 @@ git clone --depth=1 https://github.com/ilxp/luci-app-ikoolproxy package/luci-app
 git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
+git clone --depth=1 https://github.com/syb999/openwrt-24.10.5/ package/network/services/msd_lite
 git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebrowser
 git_sparse_clone openwrt-24.10 https://github.com/immortalwrt/luci applications/luci-app-eqos
-git_sparse_clone master https://github.com/syb999/openwrt-24.10.5/ package/network/services/msd_lite
+
 
 # 科学上网插件
 # git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
