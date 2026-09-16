@@ -14,8 +14,6 @@ rm -rf feeds/packages/net/mosdns
 rm -rf feeds/packages/net/msd_lite
 rm -rf feeds/packages/net/smartdns
 rm -rf feeds/packages/net/{xray-core,v2ray-geodata,sing-box,chinadns-ng,dns2socks,hysteria,ipt2socks,microsocks,naiveproxy,shadowsocks-libev,shadowsocks-rust,shadowsocksr-libev,simple-obfs,tcping,trojan-plus,tuic-client,v2ray-plugin,xray-plugin,geoview,shadow-tls}
-rm -fr feeds/packages/net/helloworld
-rm -rf feeds/helloworld/gn package/feeds/helloworld/gn
 ## rm -rf feeds/luci/themes/luci-theme-argon
 ## rm -rf feeds/luci/themes/luci-theme-netgear
 rm -rf feeds/luci/applications/luci-app-mosdns
@@ -48,6 +46,7 @@ git_sparse_clone openwrt-24.10 https://github.com/immortalwrt/luci applications/
 
 # 科学上网插件
 # git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
+git clone --depth=1 https://github.com/fw876/helloworld package/helloworld
 git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/passwall-packages
 git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall package/passwall-luci
 git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
