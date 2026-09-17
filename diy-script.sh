@@ -46,7 +46,7 @@ git_sparse_clone openwrt-24.10 https://github.com/immortalwrt/luci applications/
 
 # 科学上网插件
 # git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
-git clone --depth=1 https://github.com/fw876/helloworld package/helloworld
+# git clone --depth=1 https://github.com/fw876/helloworld package/helloworld
 git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/passwall-packages
 git clone --depth=1 https://github.com/Openwrt-Passwall/openwrt-passwall package/passwall-luci
 git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
