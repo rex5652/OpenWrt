@@ -101,6 +101,8 @@ jobs:
     - name: Install Feeds
       run: |
         cd $OPENWRT_PATH
+        sed -i '/^[[:space:]]*src-git[[:space:]]\+helloworld[[:space:]]/d' feeds.conf.default
+        rm -rf feeds/helloworld package/feeds/helloworld
         ./scripts/feeds update -a
         ./scripts/feeds install -a
 
